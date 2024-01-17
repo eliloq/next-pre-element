@@ -1,0 +1,25 @@
+div.parent {
+  width: 80%;
+  height: 500px;
+  position: absolute;
+  top: calc(50% - 500px / 2);
+  left: calc(50% - 80% / 2);
+  border-radius: 30px;
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 65px;
+  justify-content: center;
+  align-items: center;
+}
+div.parent > div.child {
+  width: 150px;
+  height: 150px;
+  background-color: whitesmoke;
+  cursor: pointer;
+
+  transition: all 250ms linear;
+}
+
+.rotate{
+  transform: rotate(180deg);
+}
